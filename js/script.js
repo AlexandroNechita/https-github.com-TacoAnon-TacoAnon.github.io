@@ -79,7 +79,7 @@ var linkMenu = [
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
   ["Gmail",                    "",""],
-  ["Amazon",                   "",""],
+  ["Amazon",                   "https://www.amazon.it","https://www.amazon.it/PALIT-GeForce-Titan-DVI-I-Mini-HDMI/dp/B00UXOGCP0/ref=sr_1_1?ie=UTF8&qid=1487438336&sr=8-1&keywords=titan+x"],
   ["Dropbox",                  "",""],
   ["Netflix",                  "",""],
   ["Weather",                  "",""],
