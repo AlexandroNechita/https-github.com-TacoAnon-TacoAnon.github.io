@@ -47,7 +47,7 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
-  ["AnimeNewsNetwork",         "",""],
+  ["AnimeNewsNetwork",         "http://www.animenewsnetwork.com",""],
   ["MyAnimeList",              "",""],
   ["Nyaa Tracker",             "",""],
   ["BakaBT",                   "",""],
@@ -55,21 +55,21 @@ var linkMenu = [
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
   ["YouTube",                  "https://www.youtube.com/",""],
   ["Facebook",                 "",""],
-  ["Reddit",                   "",""],
+  ["Reddit",                   "https://www.reddit.com/",""],
   ["Twitch",                   "",""],
-  ["DeviantArt",               "",""],
+  ["DeviantArt",               "http://www.deviantart.com/browse/all/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
-  ["/a/ Anime & Manga",        "",""],
-  ["/g/ Technology",           "",""],
-  ["/w/ Anime/Wallpapers",     "",""],
-  ["/wg/ Wallpaper/General",   "",""],
+  ["/a/ Pc Builder",           "https://pcpartpicker.com/",""],
+  ["/g/ Technology",           "http://www.hwupgrade.it/",""],
+  ["/w/ Anime/Wallpapers",     "https://wallpaperscraft.com/catalog/anime/3840x2400",""],
+  ["/wg/ Wallpaper/General",   "https://wall.alphacoders.com/by_resolution.php?w=3840&h=2160&lang=Italian",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // FuelRats
   ["GitHub",                   "https://github.com/AlexandroNechita/",""],
   ["Gist",                     "",""],
-  ["JSFiddle",                 "",""],
-  ["Stack Overflow",           "",""],
+  ["JSFiddle",                 "https://jsfiddle.net/",""],
+  ["Stack Overflow",           "http://stackoverflow.com/",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
   ["Steam",                    "http://store.steampowered.com/",""],
@@ -78,11 +78,11 @@ var linkMenu = [
   ["extratorrent",                "http://extratorrent.cc/",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
-  ["Gmail",                    "",""],
+  ["Gmail",                    "https://mail.google.com/mail/u/0/#inbox",""],
   ["Amazon",                   "https://www.amazon.it","https://www.amazon.it/PALIT-GeForce-Titan-DVI-I-Mini-HDMI/dp/B00UXOGCP0/ref=sr_1_1?ie=UTF8&qid=1487438336&sr=8-1&keywords=titan+x"],
   ["Dropbox",                  "",""],
   ["Netflix",                  "",""],
-  ["Weather",                  "",""],
+  ["Weather",                  "http://www.meteo.it/meteo/padova-28060",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
