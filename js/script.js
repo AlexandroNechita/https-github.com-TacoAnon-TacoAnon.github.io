@@ -72,10 +72,10 @@ var linkMenu = [
   ["Stack Overflow",           "",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
-  ["Steam",                    "",""],
-  ["Humble Bundle",            "",""],
-  ["GOG.com",                  "",""],
-  ["/r/gaming",                "",""],
+  ["Steam",                    "http://store.steampowered.com/",""],
+  ["OP.GG",            "https://euw.op.gg/",""],
+  ["Pro build",                  "http://www.probuilds.net/",""],
+  ["extratorrent",                "http://extratorrent.cc/",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
   ["Gmail",                    "",""],
