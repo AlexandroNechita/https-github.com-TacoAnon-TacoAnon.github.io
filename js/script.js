@@ -66,7 +66,7 @@ var linkMenu = [
   ["/wg/ Wallpaper/General",   "",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // FuelRats
-  ["GitHub",                   "",""],
+  ["GitHub",                   "https://github.com/AlexandroNechita/",""],
   ["Gist",                     "",""],
   ["JSFiddle",                 "",""],
   ["Stack Overflow",           "",""],
