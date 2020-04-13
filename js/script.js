@@ -48,15 +48,15 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
   ["AnimeNewsNetwork",         "http://www.animenewsnetwork.com",""],
-  ["MyAnimeList",              "",""],
+  ["Anime World",              "https://www.animeworld.tv/",""],
   ["Nyaa Tracker",             "",""],
   ["BakaBT",                   "",""],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
   ["YouTube",                  "https://www.youtube.com/",""],
-  ["Facebook",                 "",""],
+  ["Instagram",                "https://www.instagram.com/?hl=it",""],
   ["Reddit",                   "https://www.reddit.com/",""],
-  ["Twitch",                   "",""],
+  ["Twitch",                   "https://www.twitch.tv/",""],
   ["DeviantArt",               "http://www.deviantart.com/browse/all/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
@@ -73,16 +73,16 @@ var linkMenu = [
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
   ["Steam",                    "http://store.steampowered.com/",""],
-  ["OP.GG",            "https://euw.op.gg/",""],
-  ["Pro build",                  "http://www.probuilds.net/",""],
-  ["extratorrent",                "http://extratorrent.cc/",""],
+  ["OP.GG",                    "https://euw.op.gg/",""],
+  ["U.gg",                     "https://u.gg/",""],
+  ["League skin",              "http://leagueskin.net/p/download-mod-skin-2020-chn",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
   ["Gmail",                    "https://mail.google.com/mail/u/0/#inbox",""],
   ["Amazon",                   "https://www.amazon.it","https://www.amazon.it/PALIT-GeForce-Titan-DVI-I-Mini-HDMI/dp/B00UXOGCP0/ref=sr_1_1?ie=UTF8&qid=1487438336&sr=8-1&keywords=titan+x"],
   ["Dropbox",                  "",""],
-  ["Netflix",                  "",""],
-  ["Weather",                  "http://www.meteo.it/meteo/padova-28060",""],
+  ["Netflix",                  "https://www.netflix.com/browse",""],
+  ["Weather",                  "https://www.arpa.veneto.it/previsioni/it/html/mtg_10.html",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
@@ -154,7 +154,7 @@ function buildMenu() {
 
       newMenu += "</ul></div></div></li><li class=\"button-container expanding-down\"><div class=\"button accent-" + accent + "\"><label class=\"button-content\">" + linkMenu[i][0] + "</label><div class=\"button-expanded-content\"><ul class=\"menu-link container\">";
     } else {
-      newMenu += "<li class='menu-link-item'><a href=\"" + linkMenu[i][1] + "\" target=\"_self\"><label>" + linkMenu[i][0] + "</label></a></li>";
+      newMenu += "<li class='menu-link-item'><a href=\"" + linkMenu[i][1] + "\" target=\"_blank\"><label>" + linkMenu[i][0] + "</label></a></li>";
     }
   }
   newMenu +="</ul></div></div></li>";
