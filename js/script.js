@@ -80,7 +80,7 @@ var linkMenu = [
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
   ["Gmail",                    "https://mail.google.com/mail/u/0/#inbox",""],
   ["Amazon",                   "https://www.amazon.it","https://www.amazon.it/PALIT-GeForce-Titan-DVI-I-Mini-HDMI/dp/B00UXOGCP0/ref=sr_1_1?ie=UTF8&qid=1487438336&sr=8-1&keywords=titan+x"],
-  ["Dropbox",                  "",""],
+  ["Classroom",                "https://classroom.google.com/u/2/h",""],
   ["Netflix",                  "https://www.netflix.com/browse",""],
   ["Weather",                  "https://www.arpa.veneto.it/previsioni/it/html/mtg_10.html",""],
 ];
